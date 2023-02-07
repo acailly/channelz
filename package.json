@@ -1,0 +1,12 @@
+{
+  "name": "channelz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "node ./test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
