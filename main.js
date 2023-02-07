@@ -3,15 +3,13 @@
 const http = require("http");
 
 const host = "localhost";
-const port = 8000;
+const port = process.env.PORT || 8000;
 
 const writerRequests = {};
 const writerResponses = {};
 const readerResponses = {};
 
 const requestListener = function (req, res) {
-  console.log("DEBUG", req.method, req.url);
-
   const path = req.url;
   if (req.method === "GET") {
     const previousReaderResponse = readerResponses[path];
