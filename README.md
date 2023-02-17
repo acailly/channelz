@@ -1,2 +1,2 @@
 # channelz
-patchbay.pub like rendez vous server 
+[patchbay.pub](https://patchbay.pub/) like rendez vous server 
